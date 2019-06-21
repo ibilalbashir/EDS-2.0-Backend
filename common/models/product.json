@@ -1,0 +1,41 @@
+{
+  "name": "Product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "supplierID": {
+      "type": "string",
+      "required": true
+    },
+    "supplierPartID": {
+      "type": "string",
+      "required": true
+    },
+    "quantityBackOrdered": {
+      "type": "number"
+    },
+    "quantityOnOrder": {
+      "type": "number"
+    },
+    "itemNextAvailabilityDate": {
+      "type": "date"
+    },
+    "discontinued": {
+      "type": "string"
+    },
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "productUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
