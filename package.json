@@ -21,7 +21,7 @@
     "loopback-connector-mongodb": "^4.0.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^3.0.0",
-    "xlsx": "^0.14.3"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
